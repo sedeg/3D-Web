@@ -1,0 +1,40 @@
+$bp-xxldesktop: 1650px;
+$bp-xldesktop: 1460px;
+$bp-desktop: 1169px;
+$bp-tablet: 991px;
+$bp-mobile: 767px;
+
+
+$footerheight: 670px;
+
+$colorGreyDark: #71706f;
+$colorGreyLight: #eae9eb;
+$colorGrey: #b2b2b2;
+$colorBlueGreen : #49bdc4;
+$colorBlueDark: #3d3748;
+@mixin vendor-prefixes($property, $value) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+}
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	@include vendor-prefixes(border-radius, $radius);
+}
+
+@mixin box-shadow($shadow){
+	box-shadow: $shadow;
+	@include vendor-prefixes(box-shadow, $shadow);
+}
+
+@mixin transition($trans){
+	transition: $trans;
+	@include vendor-prefixes(transition, $trans);
+}
+
+@mixin transform($transf){
+	transform: $transf;
+	@include vendor-prefixes(transform, $transf);
+}
