@@ -20,7 +20,7 @@
 	<div class="row">
 		<div class="col-xs-6 col-sm-8">
 			<div class="well">
-				<canvas id="thecanvas" width="400" height="249">
+				<canvas id="thecanvas" width="400" height="200">
 					Your browser does not support the HTML5 canvas element. <a href=#>Click here</a> to watch the video.
 				</canvas>
 			</div>

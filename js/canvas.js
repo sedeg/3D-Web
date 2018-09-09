@@ -104,7 +104,7 @@ function loop() {
 	for (var i = 0; i < vertices.length; i++) {
 		var v = vertices[i];
 		var r = v.rotateY(angle).rotateX(angle);
-		var p = r.project(400, 250, 200, 4);
+		var p = r.project(400, 200, 200, 6);
 		t.push(p)
 	}
 
