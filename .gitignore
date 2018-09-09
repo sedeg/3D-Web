@@ -1,0 +1,58 @@
+# IDE specific folders such as PhpStorm, NetBeans, Zend Studio ...
+/.idea/
+/nbproject/
+/nbdist/
+/build/
+/.buildpath
+/.project
+/.settings
+
+# operating system specific and auto created files / folders
+/**/Thumbs.db
+/**/.DS_Store
+
+# sql working folder (dumps and backups)
+/sql/*
+!/sql/.gitkeep
+!/sql/*-vm5.sql
+
+# backup folder
+/bak/*
+!/bak/.gitkeep
+
+# htaccess
+/.htaccess
+
+# google verification files
+/google*.html
+
+# NodeJS
+/**/node_modules/
+
+# WordPress
+/liesmich.html
+/readme.html
+/license.txt
+/wp-config-local.php
+/wp-content/cache/
+/wp-content/upgrade/*
+!/wp-content/upgrade/.gitkeep
+/wp-content/uploads/*
+!/wp-content/uploads/.gitkeep
+
+# WordPress plugins
+/wp-content/plugins/ievent_base/locale/*
+!/wp-content/plugins/ievent_base/locale/.gitkeep
+!/wp-content/plugins/ievent_base/locale/*.pot
+!/wp-content/plugins/ievent_base/locale/*.po
+
+# WordPress plugins from other git repositories
+/wp-content/plugins/im_helpers
+
+# other
+/wp-content/themes/**/style.css
+/wp-content/themes/**/style.css.map
+/wp-content/themes/**/custom-backend.css
+/wp-content/themes/**/custom-backend.css.map
+!/wp-content/themes/**/scripts.min.js
+!/wp-content/plugins/.idea/
