@@ -98,13 +98,13 @@ function loop() {
 	var t = new Array();
 
 	ctx.fillStyle = "rgb(255,255,255)";
-	ctx.fillRect(0, 0, 400, 250);
+	ctx.fillRect(0, 0, 400, 300);
 
 
 	for (var i = 0; i < vertices.length; i++) {
 		var v = vertices[i];
 		var r = v.rotateY(angle).rotateX(angle);
-		var p = r.project(400, 200, 200, 6);
+		var p = r.project(400, 300, 100, 4);
 		t.push(p)
 	}
 

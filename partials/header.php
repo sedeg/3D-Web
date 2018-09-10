@@ -15,3 +15,8 @@
 
 <body>
 <div class="container">
+	<div class="row row-distance">
+		<div class="col-xs-12">
+			<h1>Oberseminar 3D Apps</h1>
+		</div>
+	</div>
