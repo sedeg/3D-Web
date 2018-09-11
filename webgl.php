@@ -35,6 +35,29 @@
 			</div>
 			<div class="col-xs-4">
 				<h2>WebGL Cube</h2>
+				<div class="content-part">
+					<h4>Prinzip</h4>
+					<ul>
+						<li>3D-Inhalte entweder programmieren oder mit 3D-Renderingtools definieren</li>
+						<li>Grafiken werden innerhalb eines Canvas-Elements gerendert</li>
+					</ul>
+				</div>
+				<div class="content-part">
+					<table>
+						<tr>
+							<td><strong>Page Load</strong></td>
+							<td>26,776s</td>
+						</tr>
+						<tr>
+							<td><strong>CPU Auslastung</strong></td>
+							<td>51,8%</td>
+						</tr>
+						<tr>
+							<td><strong>Projektgröße</strong></td>
+							<td>4,68KB</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>

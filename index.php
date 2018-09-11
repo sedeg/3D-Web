@@ -29,6 +29,30 @@
 		</div>
 		<div class="col-xs-4">
 			<h2>CSS Cube</h2>
+			<div class="content-part">
+				<h4>Prinzip</h4>
+				<ul>
+					<li>HTML-Elemente im DOM anglegen</li>
+					<li>mittels CSS um Achsen rotieren</li>
+					<li>komplexe Objekte durch Verschiebung</li>
+				</ul>
+			</div>
+			<div class="content-part">
+				<table>
+					<tr>
+						<td><strong>Page Load</strong></td>
+						<td>0,632s</td>
+					</tr>
+					<tr>
+						<td><strong>CPU Auslastung</strong></td>
+						<td>45,2%</td>
+					</tr>
+					<tr>
+						<td><strong>Projektgröße</strong></td>
+						<td>9,96KB</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</div>
 </div>

@@ -22,6 +22,30 @@
 		</div>
 		<div class="col-xs-4">
 			<h2>Canvas Cube</h2>
+			<div class="content-part">
+				<h4>Prinzip</h4>
+				<ul>
+					<li>Canvas im DOM anglegen</li>
+					<li>Punkte im Raum definieren und zu Pfaden verbinden</li>
+					<li>Pfade zu komplexen Objekten zusammensetzen</li>
+				</ul>
+			</div>
+			<div class="content-part">
+				<table>
+					<tr>
+						<td><strong>Page Load</strong></td>
+						<td>0,751s</td>
+					</tr>
+					<tr>
+						<td><strong>CPU Auslastung</strong></td>
+						<td>17,6%</td>
+					</tr>
+					<tr>
+						<td><strong>Projektgröße</strong></td>
+						<td>13,99KB</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</div>
 </div>
